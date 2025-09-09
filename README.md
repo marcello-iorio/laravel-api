@@ -22,7 +22,7 @@
 
 1. Clone o repositório: `git clone [https://github.com/marcello-iorio/laravel-api]`
 2. Navegue até a pasta do projeto: `cd laravel-api`
-3. Copie o arquivo de ambiente: `cp .env.example .env`
+3. Copie o arquivo de ambiente: `cp .env.example .env` | `cp .env.example .env` (Windows)
 4. Inicie os containers do Docker: `./vendor/bin/sail up -d`
 5. Rode as migrations e popule o banco: `./vendor/bin/sail artisan migrate:fresh --seed`
 6. Acesse o painel em: `http://localhost/posts-manager`
